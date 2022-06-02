@@ -2,24 +2,26 @@
  Назовите userSalaries.
  Свойствами выступают: Ella, Sophia, Ellie
  Выведите на экран зарплату Ella, Sophia.***********/
-/*const userSalaries = {
+const userSalaries = {
   Ella: 100,
   Sophia: 200,
   Ellie: 300,
-};
-alert(userSalaries['Ella'] + userSalaries['Sophia'] + userSalaries['Ellie']) ;*/
+}
+
+alert(userSalaries.Ella + userSalaries.Sophia + userSalaries.Ellie) ;
 
 
 
 /*********** Создайте объект с ключами a, b и c значениями 5 , 6 и 10.
  Найдите сумму его элементов ***********/
 
-/*const obj = {
+const obj = {
   a: 5,
   b: 6,
   c: 10,
 }
-console.log(obj['a'] + obj['b'] + obj['c'])*/
+
+console.log(obj.a + obj.b + obj.c)
 
 
 /*********** let number;
@@ -33,13 +35,16 @@ console.log(obj['a'] + obj['b'] + obj['c'])*/
 
 let number;
 let data = true;
+
 if(data === true){
   number = 3;
 } else{
   number = 5;
 }
 
-alert(data);
 
-/*result  (number === 15) ? '3' : '5';*/
+let number = data ? 3 : 5;
+
+
+
 
