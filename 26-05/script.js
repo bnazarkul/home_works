@@ -15,6 +15,7 @@ if (('Отмена')) {
 } else {
   alert('Я вас не знаю')*/
 
+/*
 const whois = prompt('Кто пришел?', 'Админ');
 if (whois === 'Админ') {
   const password = prompt('Пароль');
@@ -29,4 +30,14 @@ if (whois === 'Админ') {
  alert('Вход отменен');
 } else {
   alert('Я вас не знаю');
-}
+}*/
+
+/*const test = true;
+if (test !== true) {
+  alert ('Верно')
+} else {
+  alert ('Неверно')
+}*/
+
+const result = (test !== true) ? 'Верно' : 'Неверно';
+alert(result);
