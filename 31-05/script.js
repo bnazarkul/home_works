@@ -2,12 +2,12 @@
  Назовите userSalaries.
  Свойствами выступают: Ella, Sophia, Ellie
  Выведите на экран зарплату Ella, Sophia.***********/
-/*const userSalaries = {
+const userSalaries = {
   Ella: 100,
   Sophia: 200,
   Ellie: 300,
 };
-alert(userSalaries['Ella'] + userSalaries['Sophia'] + userSalaries['Ellie']) ;*/
+alert(userSalaries.Ella, userSalaries.Sophia)
 
 
 
