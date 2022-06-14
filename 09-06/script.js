@@ -61,14 +61,13 @@ doubledValues();*/
  И эти найденные четные числа должны быть собраны в одном массиве. *******************/
 
 
-let arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
-let result = arr.filter(function(elem) {
-  if (elem % 2 == 0) {
-    return true;
+function min(a, b) {
+  if (a < b) {
+    return a;
   } else {
-    return false;
+    return b;
   }
-});
+}
 
-console.log(result)
+min(5, 4 );
