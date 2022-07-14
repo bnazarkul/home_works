@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightcyan;
+
+}
+
+.container{
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 180px;
+}
+.product{
+    font-weight: 300;
+}
+.price {
+    margin-top: 2px;
+    font-size: 22px;
+
+}
