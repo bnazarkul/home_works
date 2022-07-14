@@ -20,6 +20,7 @@ console.log(result);
 /*const numbers = [75, 10];
 const result = numbers.reduce((n, m) => {
   return n * m;
+
 })
 
 console.log(result);*/
