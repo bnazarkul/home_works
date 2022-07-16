@@ -16,7 +16,7 @@
 
  используя этот массив, необходимо вывести на страничку карточку товаров. ****************/
 
-let catalog = [
+/*let catalog = [
     {
         id:1,
         name:"Iphone 13 pro max",
@@ -46,8 +46,9 @@ const catalogShop = (catalog) => {
         p.innerText = `от ${obj.price} сом`;
 
         container.append(div);
-        div.append(img, p, div);
+        div.append(img, p);
     });
 };
-catalogShop(catalog);
+catalogShop(catalog);*/
 
+/*********14/07/2022 Вывод товара ********/
