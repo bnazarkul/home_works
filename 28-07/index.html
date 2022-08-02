@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form id="form" action="javascript:void(0) ">
+        <div class="form-control">
+            <input type="text" id="userName" data-required placeholder="Введите имя">
+        </div>
+        <div class="form-control">
+            <input type="tel" id="userPhone"data-required  placeholder="Введите тел номер">
+        </div>
+        <div class="form-control">
+            <textarea id="userMsg" placeholder="Введите сообщение"></textarea>
+        </div>
+        <div class="form-control">
+            <select  id="userBank">
+                <option value="0">Выберите банк</option>
+                <option value="1">Bakai Bank</option>
+                <option value="2">KICB Bank</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <p>Выберите язык программирования</p>
+            <label for="js">Javascript <input type="checkbox" id="js" value="js"></label>
+            <label for="java">Java <input type="checkbox" id="java" value="java"></label>
+            <label for="py">Python <input type="checkbox" id="py" value="py"></label>
+        </div>
+        <div class="form-control">
+            <p>Формат</p>
+            <label for="online">Онлайн <input type="radio" id="online" name="format" value="online"></label>
+            <label for="offline">Оффлайн <input type="radio" id="offline" name="format" value="offline"></label>
+        </div>
+        <div class="form-control">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
